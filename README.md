@@ -1,2 +1,2 @@
-# Etilik.github.io
+# EtilikServ.github.io
 serveur  gmod darkrp
