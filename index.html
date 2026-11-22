@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e16">
+  <title>EtilikServ • Chargement du serveur</title>
+  <link rel="icon" type="image/png" href="assets/logo_etilikserv.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <main class="page">
+    <header class="topline">
+      <div class="server-id"><span class="led"></span><span>ETILIKSERV <span class="dim">/ DARKRP FRANÇAIS</span></span></div>
+      <div class="topline-right"><span class="online-dot"></span> CONNEXION AU SERVEUR</div>
+    </header>
+
+    <section class="hero" aria-label="Bienvenue sur EtilikServ">
+      <div class="hero-logo-box">
+        <img class="brand-logo" src="assets/logo_etilikserv.png" alt="Logo EtilikServ">
+      </div>
+      <div class="hero-eyebrow"><span class="eyebrow-line"></span> BIENVENUE DANS LA VILLE <span class="eyebrow-line"></span></div>
+      <h1>Votre aventure <em>commence ici.</em></h1>
+      <p class="intro">Métiers, rencontres et liberté : préparez-vous à rejoindre la communauté EtilikServ.</p>
+      <div class="pills" aria-label="Informations du serveur">
+        <div class="pill"><span class="pill-label">MODE</span><b id="gamemode">DARKRP</b></div>
+        <div class="pill"><span class="pill-label">CARTE</span><b id="map">CHARGEMENT…</b></div>
+      </div>
+    </section>
+
+    <section class="loading-panel" aria-live="polite">
+      <div class="loading-top">
+        <div class="loading-icon" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="loading-headings">
+          <div class="loading-title">Connexion en cours</div>
+          <div class="loading-status" id="status">Initialisation du chargement…</div>
+        </div>
+        <strong class="loading-percent" id="percent" aria-label="Progression du téléchargement">EN COURS</strong>
+      </div>
+      <div class="track" id="progress-track" role="progressbar" aria-label="Progression du chargement">
+        <div class="track-fill" id="progress-fill"></div>
+        <div class="track-sheen"></div>
+      </div>
+      <div class="loading-bottom">
+        <span id="files">Préparation de la connexion…</span>
+        <span class="loading-file" id="filename">Merci de patienter</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div><span class="footer-icon">✦</span> RESPECT • FAIR-PLAY • ROLEPLAY</div>
+      <div>© ETILIKSERV — LE SERVEUR PREND VIE</div>
+    </footer>
+  </main>
+</body>
+</html>
